@@ -76,3 +76,7 @@ export function hideLoadMoreBtn() {
 export function showLoadingIndicatorBtn() {
   loaderBtn.classList.remove('hidden');
 }
+
+export function hideLoadingIndicatorBtn() {
+  loaderBtn.classList.add('hidden');
+}
